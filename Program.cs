@@ -3,6 +3,12 @@
 int[] notas = new int[25];
 
 /*Agregar*/
+Console.WriteLine("Ingrese las notas de los estudiantes:");
+for (int i = 0; i < notas.Length; i++)
+{
+    Console.Write($"Estudiante {i + 1}: ");
+    notas[i] = int.Parse(Console.ReadLine());
+}
 
 /*Mostrar*/
 
